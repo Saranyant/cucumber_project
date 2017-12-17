@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Accessing with a valid user name and password",
+        "description": "",
+        "id": "accessing-the-dashboard;accessing-with-a-valid-user-name-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19707719016,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a registered user on the web page",
+            "match": {
+              "location": "loginstep.i_am_a_registered_user_on_the_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7636868648,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I understand user credentials",
+            "match": {
+              "location": "loginstep.i_understand_user_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 629708226,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on login",
+            "match": {
+              "location": "loginstep.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9561850355,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should get access to the Dashboard",
+            "match": {
+              "location": "loginstep.i_should_get_access_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Accessing the Dashboard",
+    "description": "This feature defines the different user access to a dashboard\r\nand the restrictions from the same",
+    "id": "accessing-the-dashboard",
+    "keyword": "Feature",
+    "uri": "src/test/java/cucumber_project/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag1"
+      }
+    ]
+  }
+]
